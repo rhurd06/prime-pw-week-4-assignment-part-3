@@ -16,8 +16,7 @@ for (let item of basket){
   console.log('The items in the basket are: ', item)
 }
 
-function empty( empty ){
-  basket.length = 0;
-  return basket;
+function empty( ){
+  basket=[];
 }
-console.log('The items in the basket now are: ', basket);
+console.log('The items in the basket now are: ', empty());
